@@ -9,9 +9,6 @@ package com.tt.leetcode;
 public class Solution57 {
     public int[][] insert(int[][] intervals, int[] newInterval) {
         if(intervals.length==0){
-            intervals=new int[1][2];
-            intervals[0][0]=newInterval[0];
-            intervals[0][1]=newInterval[1];
             return intervals;
         }
 
